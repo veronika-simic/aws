@@ -1,4 +1,4 @@
-import { IAMClient, AttachGroupPolicyCommand } from "@aws-sdk/client-iam";
+import { IAMClient, DetachGroupPolicyCommand } from "@aws-sdk/client-iam";
 
 const iamClient = new IAMClient();
 
@@ -9,8 +9,8 @@ const params = {
 
 const run = async () => {
   try {
-    const data = iamClient.send(new AttachGroupPolicyCommand(params));
-    console.log("Policy attached");
+    const data = iamClient.send(new DetachGroupPolicyCommand(params));
+    console.log("Policy detached");
     return data;
   } catch (err) {
     console.log(err);
