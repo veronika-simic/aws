@@ -1,7 +1,7 @@
 /* creates new policy that can be seen in IAM policies */
-const AWS = require("aws-sdk");
+import { IAM } from "aws-sdk";
 
-const iam = new AWS.IAM();
+const iam = new IAM();
 
 const policy_document = {
   Version: "2012-10-17",

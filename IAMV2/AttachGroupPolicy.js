@@ -1,5 +1,5 @@
-const AWS = require('aws-sdk')
-const iam = new AWS.IAM();
+import { IAM } from 'aws-sdk';
+const iam = new IAM();
 const params = {
     GroupName: "S3Admins",
     PolicyArn: "arn:aws:iam::aws:policy/AmazonS3FullAccess"

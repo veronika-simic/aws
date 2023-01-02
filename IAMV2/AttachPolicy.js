@@ -1,5 +1,5 @@
-const AWS = require("aws-sdk");
-const iam = new AWS.IAM();
+import { IAM } from "aws-sdk";
+const iam = new IAM();
 const params = {
   /* can be found by clicking on the policy amazon resource name */
   PolicyArn: "arn:aws:iam::222621649155:policy/newuserfullpolicy",
