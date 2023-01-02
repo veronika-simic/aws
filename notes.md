@@ -41,4 +41,8 @@ User group
 - attach user to groups
 - dettach policies from groups
 
-When we create a new user from JS script we do not have access key for that user
+When we create a new user from JS script we do not have access key for that user and we can not login with that users credentials
+
+
+## Section 3: AWS & IAM V3
+- in V3 we can import each service we need induvidually, there is no need to import whole aws
