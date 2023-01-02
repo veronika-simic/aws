@@ -46,3 +46,12 @@ When we create a new user from JS script we do not have access key for that user
 
 ## Section 3: AWS & IAM V3
 - in V3 we can import each service we need induvidually, there is no need to import whole aws
+
+## Section 4: AWS CloudShell
+- it is a browser based shell that allows us to run aws scripts
+- aws iam create-user --user-name user1
+- before uploading a file to CLI delete existing terminal
+- aws iam attach-user-policy --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess --user-name user1
+- aws iam create-access-key --user-name user1
+-  aws iam create-group --group-name Admins
+- aws iam add-user-to-group --user-name user1 --group-name Admins
