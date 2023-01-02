@@ -26,10 +26,6 @@ SES - send emails to customers
 - IAM User Group - Add user that have similar persmissions
 
 Install SDK v2 with npm i aws-sdk
+- add, list, update users
 
-H4fnVRX}+&h}uC^3
- https://222621649155.signin.aws.amazon.com/console
-
-
- 2C^0J7wfb&PY%E2
- https://222621649155.signin.aws.amazon.com/console
+Create custom policy
