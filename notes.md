@@ -32,3 +32,8 @@ Create custom policy
 List policies
 Add policy to user
 Detach policy
+
+User group
+- collection of users
+- allows for easier managment of policies for all those users
+- create groups from script
