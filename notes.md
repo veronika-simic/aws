@@ -55,3 +55,12 @@ When we create a new user from JS script we do not have access key for that user
 - aws iam create-access-key --user-name user1
 -  aws iam create-group --group-name Admins
 - aws iam add-user-to-group --user-name user1 --group-name Admins
+
+## Section 5: DynamoDB
+- NoSQL (key value pairs instead of rows and columns)
+- flexible, scalable, high-performance, high-functionality
+- stores data in tables
+- items are similar to rows 
+- items have attributes (id, publication_date, body...)
+- primary key (partition key and sort key)
+- partition keys can be same but then sort keys must be different
