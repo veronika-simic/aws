@@ -3,7 +3,7 @@ const AWS = require("aws-sdk");
 const iam = new AWS.IAM();
 
 const params = {
-    UserName: 'john'
+    UserName: 'newuser'
 }
 
 iam.createUser(params, function(err, data) {

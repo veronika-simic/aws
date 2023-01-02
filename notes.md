@@ -37,3 +37,8 @@ User group
 - collection of users
 - allows for easier managment of policies for all those users
 - create groups from script
+- attach policies to groups
+- attach user to groups
+- dettach policies from groups
+
+When we create a new user from JS script we do not have access key for that user
