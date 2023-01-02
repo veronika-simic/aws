@@ -29,3 +29,6 @@ Install SDK v2 with npm i aws-sdk
 - add, list, update users
 
 Create custom policy
+List policies
+Add policy to user
+Detach policy
