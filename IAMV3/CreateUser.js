@@ -1,11 +1,7 @@
-const {
-  IAMClient,
-  CreateUserCommand,
-  GetUserCommand,
-} = require("@aws-sdk/client-iam");
+import { IAMClient, CreateUserCommand, GetUserCommand } from "@aws-sdk/client-iam";
 const iamClient = new IAMClient();
 const params = {
-  UserName: "test",
+  UserName: "test2",
 };
 
 const run = async () => {
