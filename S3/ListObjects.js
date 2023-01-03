@@ -5,6 +5,8 @@ s3.listObjects({Bucket: 'verapera24'},(err, data) => {
   if (err) {
     console.log(err);
   } else {
-    console.log(data);
+    data.Contents.forEach((element,index) => {
+        console.log(element.Key)
+    } )
   }
 });
