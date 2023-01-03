@@ -80,3 +80,12 @@ When we create a new user from JS script we do not have access key for that user
 - node type t2.micro
 - What is ElastiCache used for?
   You can use ElastiCache for caching, which accelerates application and database performance, or as a primary data store for use cases that don't require durability like session stores, gaming leaderboards, streaming, and analytics. ElastiCache is compatible with Redis and Memcached.
+
+## Section 8: S3
+
+- storage for objects
+- simple storage service
+- when we add an object or file to bucket we can enable versioning which allows us to store multiple variants of our object
+- that way we can protect ourselfs from unwanted user actions
+- copying the object URL does not give us the object, because public access is denied
+- to make the items in the bucket public accesssible we have to disable ACL and in permisions select read and read for everyone
