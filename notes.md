@@ -89,3 +89,8 @@ When we create a new user from JS script we do not have access key for that user
 - that way we can protect ourselfs from unwanted user actions
 - copying the object URL does not give us the object, because public access is denied
 - to make the items in the bucket public accesssible we have to disable ACL and in permisions select read and read for everyone
+- it allows for static websites hosting
+- npm run build gives us a folder which we will upload to bucket
+  -then upload the build file and go to static website hosting
+- after that go to permissions and bucket policy
+- in ARN copy the bucket ARN and then add /*
