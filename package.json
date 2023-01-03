@@ -1,5 +1,6 @@
 {
   "name": "aws-udemy",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +12,7 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.241.0",
     "@aws-sdk/client-iam": "^3.241.0",
+    "@aws-sdk/client-s3": "^3.241.0",
     "aws-sdk": "^2.1286.0"
   }
 }
