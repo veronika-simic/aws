@@ -8,20 +8,17 @@ const client = new Client({
   port: 5432,
 });
 
-const selectData = () => {
+const deleteData = () => {
   client.connect();
-  client.query(
-    "UPDATE Employee SET email = 'veraeamil@haha.com' WHERE email= 'eamil@haha.com'",
-    (err, result) => {
-      if (!err) {
-        console.log(result);
-      } else {
-        console.log(err);
-      }
-
-      client.end();
+  client.query("DELETE FROM Employee WHERE id=1", (err, result) => {
+    if (!err) {
+      console.log(result);
+    } else {
+      console.log(err);
     }
-  );
+
+    client.end();
+  });
 };
 
-selectData();
+deleteData();
