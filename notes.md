@@ -101,3 +101,9 @@ When we create a new user from JS script we do not have access key for that user
 - choose free tier
 - it is a service that allows us to set up databases in AWS cloud
 - DB instance contains Databases
+
+## Section 11: EC2
+
+- elastic compute cloud
+- create key-pair which are used for authentication
+- create security group which act as virtual firewall, they controll incoming and outcoming traffic
