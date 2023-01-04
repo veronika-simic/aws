@@ -94,3 +94,7 @@ When we create a new user from JS script we do not have access key for that user
   -then upload the build file and go to static website hosting
 - after that go to permissions and bucket policy
 - in ARN copy the bucket ARN and then add /*
+
+## Section 10: RDS
+- relational database system
+- choose free tier
