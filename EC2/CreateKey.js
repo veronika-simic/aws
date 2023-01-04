@@ -14,5 +14,12 @@ ec2.createKeyPair(params, function (err, data) {
     console.log(err);
   } else {
     console.log(data);
+    fs.writeFile("mykey.pem", data.KeyMaterial, (er) => {
+      if (err) {
+        console.log("Failed to save");
+      } else {
+        console.log("Saved");
+      }
+    });
   }
 });
